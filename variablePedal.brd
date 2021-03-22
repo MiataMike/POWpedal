@@ -1807,9 +1807,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.035" y="31.115" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="31.115" y="31.115" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="TM2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1" value="" x="13.97" y="33.02" smashed="yes">
-<attribute name="NAME" x="12.065" y="31.115" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="17.145" y="31.115" size="1.27" layer="27" rot="R90"/>
+<element name="TM2" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1" value="" x="15.24" y="33.02" smashed="yes">
+<attribute name="NAME" x="13.335" y="31.115" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="18.415" y="31.115" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -1841,6 +1841,7 @@ design rules under a new name.</description>
 <vertex x="43.18" y="67.31"/>
 <vertex x="43.18" y="0"/>
 </polygon>
+<contactref element="J2" pad="SLEEVE-NORM"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="1"/>
@@ -1854,7 +1855,7 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="Q1" pad="E"/>
 <contactref element="TM2" pad="3"/>
-<wire x1="14.97" y1="31.195" x2="19.05" y2="27.115" width="0.1524" layer="1"/>
+<wire x1="16.24" y1="31.195" x2="19.05" y2="27.115" width="0.1524" layer="1"/>
 <wire x1="19.05" y1="27.115" x2="19.05" y2="25.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="V+">
@@ -1876,7 +1877,7 @@ design rules under a new name.</description>
 <via x="6.35" y="39.37" extent="1-16" drill="0.35"/>
 <wire x1="9.91" y1="38.75" x2="6.97" y2="38.75" width="0.1524" layer="1"/>
 <wire x1="6.97" y1="38.75" x2="6.35" y2="39.37" width="0.1524" layer="1"/>
-<wire x1="13.97" y1="34.52" x2="13.97" y2="36.83" width="0.1524" layer="1"/>
+<wire x1="15.24" y1="34.52" x2="13.97" y2="36.83" width="0.1524" layer="1"/>
 <via x="13.97" y="36.83" extent="1-16" drill="0.35"/>
 <wire x1="13.97" y1="36.83" x2="15.24" y2="38.1" width="0.1524" layer="16"/>
 <wire x1="15.24" y1="38.1" x2="16.51" y2="38.1" width="0.1524" layer="16"/>
@@ -1945,8 +1946,12 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="J2" pad="TIP"/>
 <contactref element="C1" pad="1"/>
-<wire x1="25.69" y1="1.94" x2="29.97" y2="6.22" width="0.1524" layer="1"/>
-<wire x1="29.97" y1="6.22" x2="38.1" y2="6.22" width="0.1524" layer="1"/>
+<wire x1="25.69" y1="1.94" x2="34.29" y2="10.54" width="0.1524" layer="1"/>
+<wire x1="34.29" y1="10.54" x2="34.29" y2="12.7" width="0.1524" layer="1"/>
+<contactref element="J2" pad="TIP-NORM"/>
+<wire x1="34.29" y1="12.7" x2="34.29" y2="13.84" width="0.1524" layer="1"/>
+<wire x1="25.69" y1="13.24" x2="33.75" y2="13.24" width="0.1524" layer="1"/>
+<wire x1="33.75" y1="13.24" x2="34.29" y2="12.7" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
