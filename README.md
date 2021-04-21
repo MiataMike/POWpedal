@@ -9,3 +9,6 @@ Find the operating conditions (Beta [aka hFE] of transistors and amplitude of gu
 
 https://github.com/MiataMike/POWpedal/wiki/Transistor-information
 http://tomsguitarprojects.blogspot.com/2014/12/electric-guitar-output-voltage-levels.html
+
+## Scope change
+Add an oscilloscope using comparators, shift register, an LED driver and an 8x16 LED display (or cooler). An RC oscillator can provide a tunable temporal sampling window (like ms/div). This will be useful for setting the bias and gain, since it will clip unless you have *both* at the right levels. I'll add a bypass so it'll display the upstream signal and act as a cable driver
