@@ -1,0 +1,18 @@
+"Part";"Value";"Device";"Package";"Description";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";"PROD_ID";"SF_ID";"SPICEMODEL";"SPICEPREFIX";"VALUE";
+"C1";"CL31A106KOCLNNC";"C-USC1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"24";"";"";"";"C";"";
+"C2";"CL31A106KOCLNNC";"C-USC1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"24";"";"";"";"C";"";
+"C3";"CL31A106KOCLNNC";"C-USC1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"24";"";"";"";"C";"";
+"IC1";"OPA340U";"OPA340U";"SO08";"Rail-to-Rail Operational Amplifiers";"";"OPA340UA";"1106196";"24M5449";"0";"";"";"";"";"";
+"J2";"AUDIO_JACK_TRS_0.25"_PTH_RA";"AUDIO_JACK_TRS_0.25"_PTH_RA";"AUDIO_JACK_0.25"_TRS_PTH_RA";"Audio Jack, 1/4" TRS jack, horizontal, PTH, aka "Phono jack"";"";"";"";"";"";"CONN-12339";"COM-11144";"";"";"";
+"J3";"AUDIO_JACK_TRS_0.25"_PTH_RA";"AUDIO_JACK_TRS_0.25"_PTH_RA";"AUDIO_JACK_0.25"_TRS_PTH_RA";"Audio Jack, 1/4" TRS jack, horizontal, PTH, aka "Phono jack"";"";"";"";"";"";"CONN-12339";"COM-11144";"";"";"";
+"J4";"5.5x2.1mm Barrel";"POWER_JACKSMD";"POWER_JACK_SMD";"Power Jack Connector";"";"";"";"";"";"CONN-08106";"PRT-12748";"";"";"5.5x2.1mm Barrel";
+"JP1";"";"PINHD-1X2";"1X02";"PIN HEADER";"";"";"";"";"98";"";"";"";"";"";
+"R1";"PT10MV10-504A2020-S";"POTENTIOMETER_PT-10";"PT-10";"Potentiometer";"";"";"";"";"15";"";"";"POT";"X";"";
+"R2";"PT10MV11-103A2020-S";"POTENTIOMETER_PT-10";"PT-10";"Potentiometer";"";"";"";"";"15";"";"";"POT";"X";"";
+"R3";"RMCF0805FT100K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"85";"";"";"";"R";"";
+"R4";"RMCF0805FT100K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"85";"";"";"";"R";"";
+"R5";"RMCF0805FT100K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"85";"";"";"";"R";"";
+"R6";"PT10MV10-104A2020-S";"POTENTIOMETER_PT-10";"PT-10";"Potentiometer";"";"";"";"";"15";"";"";"POT";"X";"";
+"TM1";"TC33X-1-104E";"TRIMPOTTC33X";"TC33X";"SMT trimmer potentiometer part number TC33X";"";"";"";"";"";"";"";"";"";"";
+"TM2";"TC33X-2-102E";"TRIMPOTTC33X";"TC33X";"SMT trimmer potentiometer part number TC33X";"";"";"";"";"";"";"";"";"";"";
+"U$1";"917-43-103-41-005000";"917-43-103-41-005000";"TO-5";"";"";"";"";"";"";"";"";"";"";"";

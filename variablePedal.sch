@@ -91,6 +91,7 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="130bmp" color="2" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -8457,88 +8458,6 @@ Single-Supply, MicroAmplifier(TM) Series</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-pnp" urn="urn:adsk.eagle:library:399">
-<description>&lt;b&gt;PNP Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="TO92-CBE" urn="urn:adsk.eagle:footprint:29186/1" library_version="5">
-<description>&lt;b&gt;TO-92&lt;/b&gt;&lt;p&gt;
-grid 5.08 mm</description>
-<wire x1="-2.095" y1="-1.651" x2="2.095" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.413" y1="1.1359" x2="2.413" y2="1.1359" width="0.127" layer="21" curve="-129.583"/>
-<wire x1="1.136" y1="-0.127" x2="-1.136" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.413" y1="1.1359" x2="-2.413" y2="-1.1359" width="0.127" layer="51" curve="50.4167"/>
-<wire x1="-1.404" y1="-0.127" x2="-2.664" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="-2.4135" y1="-1.1359" x2="-2.095" y2="-1.651" width="0.127" layer="21" curve="13.0385"/>
-<wire x1="-1.136" y1="-0.127" x2="-1.404" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.413" y1="-1.1359" x2="2.413" y2="1.1359" width="0.127" layer="51" curve="50.4167"/>
-<wire x1="2.664" y1="-0.127" x2="1.404" y2="-0.127" width="0.127" layer="51"/>
-<wire x1="1.404" y1="-0.127" x2="1.136" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="2.095" y1="-1.651" x2="2.4247" y2="-1.1118" width="0.127" layer="21" curve="13.6094"/>
-<pad name="C" x="2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="E" x="-2.54" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="B" x="0" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="TO92-CBE" urn="urn:adsk.eagle:package:29223/2" type="model" library_version="5">
-<description>TO-92
-grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="TO92-CBE"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="PNP" urn="urn:adsk.eagle:symbol:29169/1" library_version="5">
-<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
-<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
-<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
-<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
-<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
-<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
-<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
-<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
-<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MPSA56*" urn="urn:adsk.eagle:component:29340/3" prefix="Q" library_version="5">
-<description>&lt;b&gt;PNP Transistror&lt;/b&gt;&lt;p&gt;
-Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
-<gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO92-CBE">
-<connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29223/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="3" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -9469,6 +9388,158 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </deviceset>
 </devicesets>
 </library>
+<library name="FormE">
+<packages>
+<package name="TO-5">
+<pad name="P$1" x="-2.54" y="0" drill="0.6"/>
+<pad name="P$2" x="0" y="-2.54" drill="0.6"/>
+<pad name="P$3" x="2.54" y="0" drill="0.6"/>
+<circle x="0" y="0" radius="5.08" width="0.1524" layer="21"/>
+<circle x="-3.81" y="3.81" radius="1.27" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TO-5">
+<pin name="P$1" x="-12.7" y="0" length="middle"/>
+<pin name="P$2" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="P$3" x="12.7" y="0" length="middle" rot="R180"/>
+<circle x="0" y="0" radius="8.032184375" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="917-43-103-41-005000">
+<gates>
+<gate name="G$1" symbol="TO-5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO-5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="4">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="98" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X02/90">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9479,24 +9550,25 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </class>
 </classes>
 <parts>
-<part name="TM1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="TRIMPOT" device="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1"/>
-<part name="TM2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="TRIMPOT" device="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1"/>
+<part name="TM1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="TRIMPOT" device="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1" value="TC33X-1-104E"/>
+<part name="TM2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="TRIMPOT" device="TC33X" package3d_urn="urn:adsk.eagle:package:6240639/1" value="TC33X-2-102E"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1" value="PT10MV10-504A2020-S"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1" value="PT10MV11-103A2020-S"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="OPA340" device="U" package3d_urn="urn:adsk.eagle:package:4924/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
-<part name="Q1" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="MPSA56*" device="" package3d_urn="urn:adsk.eagle:package:29223/2"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="CL31A106KOCLNNC"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="CL31A106KOCLNNC"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="RMCF0805FT100K"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="RMCF0805FT100K"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="RMCF0805FT100K"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1" value="PT10MV10-104A2020-S"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_RA" device="" package3d_urn="urn:adsk.eagle:package:38295/1"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AUDIO_JACK_TRS_0.25&quot;_PTH_RA" device="" package3d_urn="urn:adsk.eagle:package:38295/1"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="POWER_JACK" device="SMD" package3d_urn="urn:adsk.eagle:package:38221/1" value="5.5x2.1mm Barrel"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="CL31A106KOCLNNC"/>
+<part name="U$1" library="FormE" deviceset="917-43-103-41-005000" device=""/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9507,13 +9579,13 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <attribute name="NAME" x="57.531" y="77.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="59.69" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TM2" gate="G$1" x="86.36" y="50.8" smashed="yes">
-<attribute name="NAME" x="80.391" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.55" y="46.99" size="1.778" layer="96" rot="R90"/>
+<instance part="TM2" gate="G$1" x="86.36" y="45.72" smashed="yes">
+<attribute name="NAME" x="80.391" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.55" y="41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="1" x="86.36" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="91.44" y="83.82" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="93.98" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="1" x="86.36" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="91.44" y="88.9" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="93.98" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="1" x="63.5" y="50.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="68.58" y="53.34" size="1.778" layer="95" rot="R90"/>
@@ -9533,25 +9605,21 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <attribute name="NAME" x="32.385" y="67.056" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="37.211" y="67.056" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q1" gate="G$1" x="83.82" y="66.04" smashed="yes" rot="MR180">
-<attribute name="NAME" x="73.66" y="58.42" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="73.66" y="60.96" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="C2" gate="G$1" x="91.44" y="71.12" smashed="yes" rot="R90">
-<attribute name="NAME" x="90.805" y="72.136" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="95.631" y="72.136" size="1.778" layer="96" rot="R90"/>
+<instance part="C2" gate="G$1" x="99.06" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="98.425" y="72.136" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="103.251" y="72.136" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R3" gate="G$1" x="114.3" y="71.12" smashed="yes">
 <attribute name="NAME" x="110.49" y="72.6186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="110.49" y="67.818" size="1.778" layer="96"/>
+<attribute name="VALUE" x="113.03" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="106.68" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="105.1814" y="49.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.982" y="49.53" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="39.37" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="106.68" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="105.1814" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="109.982" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="72.39" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="1" x="144.78" y="78.74" smashed="yes">
 <attribute name="NAME" x="147.32" y="73.66" size="1.778" layer="95"/>
@@ -9571,7 +9639,12 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 </instance>
 <instance part="C3" gate="G$1" x="114.3" y="53.34" smashed="yes">
 <attribute name="NAME" x="115.316" y="53.975" size="1.778" layer="95"/>
-<attribute name="VALUE" x="115.316" y="49.149" size="1.778" layer="96"/>
+<attribute name="VALUE" x="121.031" y="39.116" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$1" gate="G$1" x="86.36" y="66.04" smashed="yes" rot="MR90"/>
+<instance part="JP1" gate="G$1" x="119.38" y="86.36" smashed="yes">
+<attribute name="NAME" x="113.03" y="92.075" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.03" y="81.28" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9586,8 +9659,8 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="TM1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="76.2" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 <junction x="63.5" y="66.04"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="81.28" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="73.66" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9599,10 +9672,11 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="68.58" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="R1" gate="1" pin="3"/>
 <wire x1="91.44" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="99.06" x2="160.02" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="99.06" x2="170.18" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="81.28" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="86.36" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 <junction x="91.44" y="99.06"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="88.9" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
@@ -9623,23 +9697,16 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="20.32" y1="71.12" x2="20.32" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <junction x="68.58" y="99.06"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R1" gate="1" pin="1"/>
-<pinref part="Q1" gate="G$1" pin="C"/>
-<wire x1="86.36" y1="76.2" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
-<junction x="86.36" y="71.12"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="E"/>
-<pinref part="TM2" gate="G$1" pin="E"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="EARTH-NORM"/>
+<wire x1="17.78" y1="68.58" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
+<junction x="17.78" y="71.12"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="88.9" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
+<junction x="111.76" y="99.06"/>
+<pinref part="J3" gate="G$1" pin="EARTH-NORM"/>
+<wire x1="160.02" y1="71.12" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
+<junction x="160.02" y="73.66"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -9654,7 +9721,7 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <wire x1="124.46" y1="38.1" x2="170.18" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="38.1" x2="170.18" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="TM2" gate="G$1" pin="S"/>
-<wire x1="91.44" y1="50.8" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="45.72" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
 <junction x="91.44" y="38.1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="48.26" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
@@ -9695,7 +9762,11 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="86.36" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<junction x="109.22" y="71.12"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -9717,6 +9788,9 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="J3" gate="G$1" pin="TIP"/>
 <wire x1="160.02" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="144.78" y="68.58"/>
+<pinref part="J3" gate="G$1" pin="TIP-NORM"/>
+<wire x1="160.02" y1="66.04" x2="160.02" y2="68.58" width="0.1524" layer="91"/>
+<junction x="160.02" y="68.58"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -9724,6 +9798,35 @@ The Slot footprint only works if the mill layer is transmitted to the PCB fab ho
 <pinref part="J2" gate="G$1" pin="TIP"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="TIP-NORM"/>
+<wire x1="17.78" y1="66.04" x2="17.78" y2="63.5" width="0.1524" layer="91"/>
+<junction x="17.78" y="66.04"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="71.12" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R1" gate="1" pin="1"/>
+<wire x1="93.98" y1="81.28" x2="86.36" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="86.36" y1="81.28" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
+<junction x="86.36" y="81.28"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="TM2" gate="G$1" pin="E"/>
+<wire x1="86.36" y1="53.34" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="RING-NORM"/>
+<pinref part="J3" gate="G$1" pin="RING"/>
+<wire x1="160.02" y1="60.96" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
